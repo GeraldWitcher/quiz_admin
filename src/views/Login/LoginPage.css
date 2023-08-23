@@ -1,0 +1,10 @@
+* {
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: none !important;
+}
+
+.login-text{
+    font-size: 50px;
+    font-weight: 200;
+}

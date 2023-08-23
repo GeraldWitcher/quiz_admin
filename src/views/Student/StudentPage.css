@@ -1,0 +1,15 @@
+* {
+    text-transform: none !important;
+    letter-spacing: normal;
+    color: #323b50;
+}
+
+.student-header {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.student-body {
+    font-weight: 400;
+    font-size: 20px;
+}
