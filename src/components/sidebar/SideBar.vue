@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-    <v-navigation-drawer v-model="drawer" app color="#323B50" width="250">
+    <v-navigation-drawer v-model="drawer" app color="white" width="250" style="box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.2)">
         <v-list flat class="mt-5">
             <v-list-item-group v-model="selectItem" mandatory>
                 <v-list-item 

@@ -1,5 +1,6 @@
 <template>
-    <div class="d-flex justify-center">
+    <v-app style="background-color: #faf9f7;">
+        <div class="d-flex justify-center">
         <SideBar/>
         <v-img 
             v-if="subjects.status_code == 204"
@@ -42,7 +43,7 @@
                 </v-btn>
             </v-navigation-drawer>
 
-            <v-simple-table dense v-if="subjects.length > 0">
+            <v-simple-table dense v-if="subjects.length > 0" style="background-color: #faf9f7;">
                 <template v-slot:default>
                     <thead>
                         <tr>
@@ -74,7 +75,8 @@
                 </template>
             </v-simple-table>
         </v-container>
-    </div>
+        </div>
+    </v-app>
 </template>
 
 <script src="./SubjectPage.js"/>
