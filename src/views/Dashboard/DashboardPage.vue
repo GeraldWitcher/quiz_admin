@@ -19,6 +19,7 @@
                         class="dashboard-card pa-5"
                         elevation="0"
                         tile
+                        
                     >
                         <v-row no-gutters>
                             <v-icon 
@@ -31,6 +32,7 @@
                         <v-row no-gutters>
                             <div style="color: black; font-size: 30px; font-weight: 500;">{{ item.count }}</div>
                         </v-row>
+                        
                         <v-row no-gutters>
                             <div style="color: black; font-size: 20px; font-weight: 200;">{{ item.text }}</div>
                         </v-row>
